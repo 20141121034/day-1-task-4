@@ -1,0 +1,16 @@
+C:\Users\Tayfun\Desktop\day-1-task-1-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Tayfun\Desktop\day-1-task-1-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Tayfun\Desktop\day-1-task-1-master\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Tayfun\Desktop\day-1-task-1-master\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Tayfun\Desktop\day-1-task-1-master\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Tayfun\Desktop\day-1-task-1-master\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\bin\Debug\Microsoft.Web.XmlTransform.dll
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\bin\Debug\NuGet.Core.dll
+C:\Users\Tayfun\Desktop\day-1-task-2\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
