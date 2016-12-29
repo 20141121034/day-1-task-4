@@ -1,11 +1,6 @@
 ﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
 using System.Net;
 
 namespace ConsoleApplication1
@@ -14,17 +9,36 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            //project2();
-            //project3();
-            project4();
+            step2();
+            step3();
+            step4();
+            step5();
             Console.Read();
         }
-        public static void project2()
+        public static void step5()
+        {
+            string brm1, brm2, miktar, deger, h1, h2;
+            Console.WriteLine("Döviz Birimini Giriniz! \n örn: 150 TRY-EUR");
+            deger = Console.ReadLine();
+
+            string[] duzen = deger.Split('-',' ');
+            miktar = duzen[0];
+            brm1 = duzen[1];
+            brm2 = duzen[2];
+
+            string url = "http://api.fixer.io/latest?base=" + brm1;
+            WebClient client = new WebClient();
+            string reply = client.DownloadString(url);
+            Lesson3 down = JsonConvert.DeserializeObject<Lesson3>(reply);
+            double sonuc = down.rates[brm2] * int.Parse(miktar);
+            Console.WriteLine(sonuc + " " + brm2);
+        }
+        public static void step2()
         {
             Console.WriteLine("Hello World!");
 
         }
-        public static void project3()
+        public static void step3()
         {
             Lesson ls = new Lesson()
             {
@@ -34,20 +48,18 @@ namespace ConsoleApplication1
             string json = JsonConvert.SerializeObject(ls);
             Console.WriteLine(json);
         }
-        public static void project4()
+        public static void step4()
         {
             //string url = "https://raw.githubusercontent.com/mhs/world-currencies/master/currencies.json";
             //WebClient client = new WebClient();
             //string reply = client.DownloadString(url);
             //Console.WriteLine(reply);
-
-            Lesson2 currency = new Lesson2
+            Lesson2 indirText = new Lesson2
             {
                 url = "https://raw.githubusercontent.com/mhs/world-currencies/master/currencies.json"
             };
-            currency.Donustur();
-
-            currency.Goruntule();
+            indirText.Donustur();
+            indirText.Goruntule();
         }
     }
 }

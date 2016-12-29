@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Lesson
+    class Lesson3
     {
-        public string Name { get; set; }
-        public string Code { get; set; }
+        public string Base { get; set; }
+        public string date { get; set; }
+        public Dictionary<string, double> rates;
     }
 }
